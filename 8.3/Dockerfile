@@ -28,7 +28,40 @@ RUN apt-get install -y \
     php8.3-imap \
     php8.3-phpdbg \
     php8.3-bz2 \
-    php8.3-redis
+    php8.3-redis \
+    libx11-xcb1 \
+    libxrandr2 \
+    libxcomposite1 \
+    libxcursor1 \
+    libxdamage1 \
+    libxfixes3 \
+    libxi6 \
+    libgtk-3-0 \
+    libatk1.0-0 \
+    libgtk-4-1 \
+    libgraphene-1.0-0 \
+    libevent-2.1-7 \
+    libopus0 \
+    gstreamer1.0-plugins-base \
+    gstreamer1.0-plugins-good \
+    gstreamer1.0-libav \
+    gstreamer1.0-plugins-bad \
+    gstreamer1.0-plugins-ugly \
+    gstreamer1.0-x \
+    gstreamer1.0-gl \
+    gstreamer1.0-gtk3 \
+    gstreamer1.0-pulseaudio \
+    libflite1 \
+    libharfbuzz-icu0 \
+    libwayland-server0 \
+    libmanette-0.2-0 \
+    libenchant-2-2 \
+    libgbm1 \
+    libhyphen0 \
+    libsecret-1-0 \
+    libwoff1 \
+    libgles2 \
+    libx264-163
 
 # composer
 ENV COMPOSER_HOME=/composer
