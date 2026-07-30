@@ -1,6 +1,6 @@
 # test-runner
 
-This is a brief repo specific version to the existing docker documentation: [Build and push your first image](https://docs.docker.com/get-started/introduction/build-and-push-first-image/). Refer to [docker documentation](https://docs.docker.com/get-started/introduction/build-and-push-first-image/) for initial steps to create your own docker repository in Docker Hub until reaching the [Build and Push The Image](https://docs.docker.com/get-started/introduction/build-and-push-first-image/#) section in the docker documentation. Then run:
+This is a brief repo specific addition to the existing docker documentation: [Build and push your first image](https://docs.docker.com/get-started/introduction/build-and-push-first-image/). Refer to [docker documentation](https://docs.docker.com/get-started/introduction/build-and-push-first-image/) for initial steps to create your own docker repository in Docker Hub until reaching the [Build and Push The Image](https://docs.docker.com/get-started/introduction/build-and-push-first-image/#) section in the docker documentation. Then run:
 ```
 git clone https://github.com/ue-shuston/laravel-test-runner
 ```
