@@ -26,12 +26,12 @@ cd 8.4
 
 6. Built the image using your docker username and the desired tag (example tag is also "8.4" in the following example):
 ```
-docker build -t <docker username>/test-runner:8.4
+docker build -t <docker username>/test-runner:8.4 .
 ```
 
 Note: Additional tags can be added by appending:
 ```
--t <docker username>/test-runner:<other tag here>
+-t <docker username>/test-runner:<other tag here> .
 ```
 to the command in step 6.
 
