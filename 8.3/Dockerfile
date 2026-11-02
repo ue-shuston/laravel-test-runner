@@ -1,5 +1,5 @@
 FROM ubuntu:22.04
-LABEL maintainer="Samuel Huston <design@samuel-huston.com>"
+LABEL maintainer="Samuel Huston <samuelhuston@outlook.com>"
 ARG DEBIAN_FRONTEND=noninteractive
 
 ENV GOSS_VERSION="0.3.6"
