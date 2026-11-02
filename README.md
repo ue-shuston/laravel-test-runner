@@ -19,14 +19,14 @@ cd /repositories/laravel-test-runner
 git pull
 ```
 
-5. Continue into the image needing to be built with the updated docker file ("8.4" in the following example):
+5. Continue into the image needing to be built with the updated docker file ("8.5" in the following example):
 ```
-cd 8.4
+cd 8.5
 ```
 
-6. Built the image using your docker username and the desired tag (example tag is also "8.4" in the following example):
+6. Built the image using your docker username and the desired tag (example tag is also "8.5" in the following example):
 ```
-docker build -t <docker username>/test-runner:8.4 .
+docker build -t <docker username>/test-runner:8.5 .
 ```
 
 Note: Additional tags can be added by appending:
@@ -40,7 +40,7 @@ to the command in step 6.
 docker image ls 
 ```
 
-8. Push the newly generated docker image via the specific tag ("8.4" in the following example):
+8. Push the newly generated docker image via the specific tag ("8.5" in the following example):
 ```
-docker push <docker username>/test-runner:8.4
+docker push <docker username>/test-runner:8.5
 ```
